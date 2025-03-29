@@ -1,3 +1,5 @@
+# Residential Mortgage-Backed Security (RMBS) Credit Rating Calculator
+
 This repository contains a solution for calculating the credit rating of Residential Mortgage-Backed Securities (RMBS) based on the following mortgage attributes:
 
 - Credit Score
@@ -34,4 +36,24 @@ The final credit rating is one of the following:
 ### 3. Running the Code:
 1. Clone this repository:
    ```bash
-   https://github.com/HarshadaKatkar/credit_rating_mocks.git
+   git clone https://github.com/HarshadaKatkar/credit_rating_mocks.git
+
+### 4. Install dependencies (if any):
+     pip install -r requirements.txt
+
+### 5. Run the program:
+    python test_credit_rating.py
+
+### 6. Testing:
+    python -m unittest test_credit_rating.py
+
+### 7. License:
+
+### Key Decisions and Design:
+- The `Mortgage` class encapsulates the attributes of each mortgage and calculates individual risk.
+- The `RMBS` class aggregates all mortgages and calculates the total risk score, adjusting based on the average credit score.
+- We used unit tests to verify the correctness of the business logic.
+- `unittest` is used for unit testing as it is built into Python and widely adopted for testing purposes.
+
+### Conclusion:
+This solution provides a clear structure for calculating the credit rating for an RMBS based on the given mortgage attributes. The implementation follows modular principles, separating the logic into easy-to-manage classes. The unit tests ensure that the algorithm works as expected across various scenarios.
