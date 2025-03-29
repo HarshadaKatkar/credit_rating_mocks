@@ -34,4 +34,4 @@ The final credit rating is one of the following:
 ### 3. Running the Code:
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/rmbs-credit-rating.git
+   https://github.com/HarshadaKatkar/credit_rating_mocks.git
